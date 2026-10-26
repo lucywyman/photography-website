@@ -17,7 +17,11 @@
       <a class="brand" href="#top" aria-label="Lucy Voigt Photography home">
         <img class="brand-logo" src="images/groovy-lucy-voigt-full-logo.png" alt="">
       </a>
-      <nav class="site-nav" aria-label="Main navigation">
+      <button class="mobile-menu-toggle" type="button" aria-controls="main-navigation" aria-expanded="false">
+        <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="mobile-menu-label">Menu</span>
+      </button>
+      <nav class="site-nav" id="main-navigation" aria-label="Main navigation">
         <details class="work-menu">
           <summary>Portfolio &amp; pricing <span aria-hidden="true"></span></summary>
           <div class="work-dropdown">
@@ -170,5 +174,6 @@
       <a href="#top" class="back-to-top">Back to the top ↑</a>
       <small>© <span id="year">2026</span> Lucy Voigt Photography</small>
     </footer>
+    <script src="menu.js" defer></script>
   </body>
 </html>
