@@ -408,7 +408,9 @@ img {
 }
 
 .hero-copy h1 em {
+  color: var(--blue);
   font-weight: 400;
+  font-style: italic;
 }
 
 .eyebrow {
